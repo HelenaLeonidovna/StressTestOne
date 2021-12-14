@@ -21,7 +21,7 @@ public class TrainTest {
     static Arguments[] equalsTestArgs(){
         return new Arguments[]{
                 Arguments.arguments(true, new Train("Kyiv", "123K", 7.30, 50), new Train("Kyiv", "123K", 7.30, 50)),
-                Arguments.arguments(false, new Train("Koiv", "123K", 7.30, 50), new Train("Kyiv", "123K", 7.30, 50)),
+                Arguments.arguments(false, new Train("Kyiv", "123K", 7.30, 50), new Train("Kyiv", "123K", 7.30, 50)),
                 Arguments.arguments(false, new Train("Kyiv", "923K", 7.30, 50), new Train("Kyiv", "123K", 7.30, 50)),
                 Arguments.arguments(false, new Train("Kyiv", "123K", 8.30, 50), new Train("Kyiv", "123K", 7.30, 50)),
                 Arguments.arguments(false, new Train("Kyiv", "123K", 7.30, 99), new Train("Kyiv", "123K", 7.30, 50))
