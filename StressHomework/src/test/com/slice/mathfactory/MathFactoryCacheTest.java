@@ -26,11 +26,11 @@ public class MathFactoryCacheTest {
 
     static Arguments[] mathFactoryCacheTestArgs(){
         return new Arguments[]{
-                Arguments.arguments(3.333333, "/", 10, 3),
+                Arguments.arguments(9.11, "/", 4, 12),
                 Arguments.arguments(13, "+", 10, 3),
-                Arguments.arguments(7, "-", 10, 3),
-                Arguments.arguments(30, "*", 10, 3),
-                Arguments.arguments(0, "plus", 10, 3)
+                Arguments.arguments(7, "-", 17, 3),
+                Arguments.arguments(41, "*", 12, 3),
+                Arguments.arguments(2, "plus", 7, 7)
 
         };
     }
